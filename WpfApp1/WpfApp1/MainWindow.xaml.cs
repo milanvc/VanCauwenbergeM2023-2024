@@ -11,5 +11,10 @@ namespace WpfApp1
         {
             InitializeComponent();
         }
+
+        private void btn_createaccount_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
