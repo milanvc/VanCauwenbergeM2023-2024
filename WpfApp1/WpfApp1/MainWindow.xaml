@@ -10,15 +10,15 @@
         <Label x:Name="lbl_Title" Content="Account creation" HorizontalAlignment="Left" Height="48" Margin="96,44,0,0" VerticalAlignment="Top" Width="248" FontFamily="Arial Narrow" FontSize="36" HorizontalContentAlignment="Right"/>
         <TextBox x:Name="txtbox_username" HorizontalAlignment="Left" Height="22" Margin="118,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="205" FontFamily="Arial Narrow" FontSize="18"/>
         <TextBlock x:Name="txt_username" HorizontalAlignment="Left" Height="15" Margin="118,114,0,0" TextWrapping="Wrap" Text="* Username" VerticalAlignment="Top" Width="87" Foreground="Red" FontFamily="Arial Narrow" FontSize="14"/>
-        <TextBlock x:Name="txt_email" HorizontalAlignment="Left" Height="17" Margin="118,183,0,0" TextWrapping="Wrap" Text="* E-mail" VerticalAlignment="Top" Width="87" Foreground="Red" FontFamily="Arial Narrow" FontSize="14"/>
-        <TextBox x:Name="txtbox_email" HorizontalAlignment="Left" Height="22" Margin="119,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="204" FontFamily="Arial Narrow" FontSize="18"/>
+        <TextBlock x:Name="txt_email" HorizontalAlignment="Left" Height="18" Margin="118,177,0,0" TextWrapping="Wrap" Text="* E-mail" VerticalAlignment="Top" Width="87" Foreground="Red" FontFamily="Arial Narrow" FontSize="14"/>
+        <TextBox x:Name="txtbox_email" HorizontalAlignment="Left" Height="22" Margin="118,195,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="204" FontFamily="Arial Narrow" FontSize="18"/>
         <TextBlock x:Name="txt_password" HorizontalAlignment="Left" Height="16" Margin="118,255,0,0" TextWrapping="Wrap" Text="* Password" VerticalAlignment="Top" Width="102" Foreground="Red" FontSize="14"/>
         <TextBox x:Name="txtbox_password" HorizontalAlignment="Left" Height="22" Margin="118,274,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="205" FontFamily="Arial Narrow" FontSize="18"/>
         <TextBlock x:Name="txt_confirmpassword" HorizontalAlignment="Left" Height="15" Margin="118,323,0,0" TextWrapping="Wrap" Text="* Confirm password" VerticalAlignment="Top" Width="114" Foreground="Red" FontFamily="Arial Narrow" FontSize="14"/>
         <TextBox x:Name="txtbox_confirmpassword" HorizontalAlignment="Left" Height="22" Margin="118,339,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="205" FontFamily="Arial Narrow" FontSize="18"/>
-        <CheckBox x:Name="checkbox_emails" Content="I would like te recieve e-mails" HorizontalAlignment="Left" Height="30" Margin="430,307,0,0" VerticalAlignment="Top" Width="266" FontFamily="Arial Narrow" FontSize="18"/>
+        <CheckBox x:Name="checkbox_emails" Content="I would like te recieve e-mails" HorizontalAlignment="Left" Height="30" Margin="430,301,0,0" VerticalAlignment="Top" Width="266" FontFamily="Arial Narrow" FontSize="18"/>
         <Button x:Name="btn_createaccount" Content="Create account" HorizontalAlignment="Left" Height="32" Margin="430,339,0,0" VerticalAlignment="Top" Width="266" Background="#FF51ED1A" Foreground="#FFF3EDED" FontFamily="Arial Narrow" FontSize="22" FontWeight="Bold" Click="btn_createaccount_Click"/>
-        <CheckBox x:Name="checkbox_policy" Content="I have read and accept the Privacy Policy" HorizontalAlignment="Left" Height="22" Margin="430,274,0,0" VerticalAlignment="Top" Width="346" FontFamily="Arial Narrow" FontSize="18" Checked="checkbox_policy_Checked"/>
-        <Label x:Name="lbl_error" Content="" HorizontalAlignment="Left" Height="24" Margin="430,0,0,0" VerticalAlignment="Center" Width="266" Foreground="Red" FontSize="14" FontFamily="Arial Narrow"/>
+        <Label x:Name="lbl_error" Content="" HorizontalAlignment="Left" Height="118" Margin="430,122,0,0" VerticalAlignment="Top" Width="266" Foreground="Red" FontSize="14" FontFamily="Arial Narrow"/>
+        <CheckBox x:Name="textbox_policy" Content="I have read and accept the Privacy Policy" HorizontalAlignment="Left" Margin="430,264,0,0" VerticalAlignment="Top" Height="21" Width="306" FontFamily="Arial Narrow" FontSize="18"/>
     </Grid>
 </Window>
