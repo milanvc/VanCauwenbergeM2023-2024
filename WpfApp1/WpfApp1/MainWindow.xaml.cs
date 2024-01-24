@@ -16,30 +16,34 @@ namespace WpfApp1
         private bool CheckFields()
         {
             bool valid = true;
-            lbl_error.Content = string.Empty;
+            lbl_error1.Content = string.Empty;
+            lbl_error2.Content = string.Empty;
+            lbl_error3.Content = string.Empty;
+            lbl_error4.Content = string.Empty;
+            lbl_error5.Content = string.Empty;
             if (txtbox_username.Text == "")
             {
-                lbl_error.Content += "Username is empty\n";
+                lbl_error1.Content += "*Username is empty\n";
                 valid = false;
             }
             if (txtbox_email.Text == "")
             {
-                lbl_error.Content += "E-mail is empty\n";
+                lbl_error2.Content += "*E-mail is empty\n";
                 valid = false;
             }
             if (txtbox_password.Text == "")
             {
-                lbl_error.Content += "Password is empty\n";
+                lbl_error3.Content += "*Password is empty\n";
                 valid = false;
             }
             if (txtbox_confirmpassword.Text == "")
             {
-                lbl_error.Content += "Confirm password is empty\n";
+                lbl_error4.Content += "*Confirm password is empty\n";
                 valid = false;
             }
             if (textbox_policy.IsChecked != true)
             {
-                lbl_error.Content += "You have to read and accept the Privacy Policy\n";
+                lbl_error5.Content += "*You have to read and accept the Privacy Policy\n";
                 valid = false;
             }
             return valid;
@@ -59,7 +63,7 @@ namespace WpfApp1
         {
             if (txtbox_password.Text != txtbox_confirmpassword.Text)
             {
-                lbl_error.Content += "Passwords do not match";
+                lbl_error6.Content += "*Passwords do not match";
                 return false;
             }
             return true;
